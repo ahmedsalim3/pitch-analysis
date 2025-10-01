@@ -24,3 +24,6 @@ serve-docs:
 
 deploy-docs:
 	cd docs && uv run mkdocs gh-deploy --force
+
+train:
+	./scripts/train-football-players-detection-yolo11.sh
